@@ -1,0 +1,14 @@
+# Ignore all CSV files because they are large dataset files
+*.csv
+
+# Common Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Streamlit local state
+/.streamlit
+
+# Virtual environments
+venv/
+.env/
